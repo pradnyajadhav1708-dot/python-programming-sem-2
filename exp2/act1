@@ -1,0 +1,9 @@
+#programming for A traffic police system checks if driver is overspeeding
+"""
+created by pradnyajadhav
+"""
+speed=int(input("Enter vehicle speed(km/h):"))
+if speed>60:
+  print("fine: you are overspeeding!")
+else:
+    print("speed is within limit:")
