@@ -1,0 +1,11 @@
+# Taking inputs of different data types
+name = input("Enter your name: ") # String
+age = int(input("Enter your age: ")) # Integer
+height = float(input("Enter your height: ")) # Float
+is_student = input("Are you a student? (True/False): ").lower() == "true" # Boolean
+# Printing the inputs
+print("\nEntered Details:")
+print("Name:", name)
+print("Age:", age)
+print("Height:", height)
+print("Is Student:", is_student)
