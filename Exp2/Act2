@@ -1,0 +1,9 @@
+#programming for movie ticket eligibility
+"""
+created by pradnyajadhav
+"""
+age=int(input("Enter your age:"))
+if age>=18:
+  print("Entry Allowed")
+  else :
+    print("Entry Not Allowed")
