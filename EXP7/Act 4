@@ -1,0 +1,22 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Apr 28 07:48:51 2026
+
+@author: Pradnya Jadhav
+"""
+
+class Student:
+    def __init__(self, name, score):
+        self.name = name
+        self.score = score
+
+    def get_grade(self):
+        if self.score >= 90: return 'A'
+        elif self.score >= 80: return 'B'
+        elif self.score >= 70: return 'C'
+        elif self.score >= 60: return 'D'
+        else: return 'F'
+
+# Example Usage
+student1 = Student("Mark", 85)
+print(f"{student1.name}'s Grade: {student1.get_grade()}")
