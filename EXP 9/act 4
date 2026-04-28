@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Apr 28 08:06:50 2026
+
+@author: Pradnya Jadhav
+"""
+
+import datetime
+
+today = datetime.date.today()
+
+print("Today's Date:", today)
