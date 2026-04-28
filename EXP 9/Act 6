@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Apr 28 08:18:09 2026
+
+@author: User
+"""
+
+import datetime
+
+today = datetime.datetime.today()
+
+print("Today is:", today.strftime("%A"))
