@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Apr 28 08:22:08 2026
+
+@author: Pradnya Jadhav
+"""
+
+# 5. Generate OTP using random module
+
+import random
+
+otp = random.randint(1000, 9999)
+
+print("Generated OTP:", otp)
