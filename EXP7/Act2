@@ -1,0 +1,23 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Apr 28 07:18:46 2026
+
+@author: Pradnya Jadhav
+"""
+
+class BankAccount:
+    def __init__(self, balance):
+        self.balance = balance
+
+    def deposit(self, amount):
+        self.balance += amount
+        print("New balance:", self.balance)
+
+    def withdraw(self, amount):
+        self.balance -= amount
+        print("Remaining balance:", self.balance)
+
+# Test it:
+my_acc = BankAccount(100)
+my_acc.deposit(50)
+my_acc.withdraw(30)
