@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Apr 28 07:24:41 2026
+
+@author:Pradnya Jadhav
+"""
+
+class Employee:
+    def __init__(self, salary):
+        self.salary = salary
+
+    def total_pay(self, bonus):
+        print("Total Salary:", self.salary + bonus)
+
+# Test it:
+staff = Employee(6000)
+staff.total_pay(600)
